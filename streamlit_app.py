@@ -1,5 +1,7 @@
 import streamlit as st
-
-st.title('🎈 App Name')
-
-st.write('Hello world!')
+import joblib
+import numpy as np
+import pandas as pd
+import requests
+from sklearn.preprocessing import LabelEncoder
+from streamlit_lottie import st_lottie
